@@ -1,15 +1,15 @@
 # elbow_synergies
 
---------------------------------------
-ELBOW SYNERGIES PROJECT (SWIVEL ANGLE)
---------------------------------------
+
+# ELBOW SYNERGIES PROJECT (SWIVEL ANGLE)
+
 
 Required MATLAB Add-Ons:
 -Navigation Toolbox
 -Robotics System Toolbox
 -Simulink Real Time
 
-INTRODUCTION
+## INTRODUCTION
 
 This project has the purpose of obtaining an optimmal 'elbow elevation angle' (or swivel angle) by using the kinematic
 data from the University of Pisa, which is part of the U-LIMB dataset. These dataset contains kinematic data of the arm
