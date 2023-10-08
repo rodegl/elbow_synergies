@@ -3,10 +3,10 @@
 
 # ELBOW SYNERGIES PROJECT (SWIVEL ANGLE)
 
-Required MATLAB Add-Ons:
--Navigation Toolbox
--Robotics System Toolbox
--Simulink Real Time
+Required MATLAB Add-Ons: \
+-Navigation Toolbox \
+-Robotics System Toolbox \
+-Simulink Real Time \
 
 ## INTRODUCTION
 
