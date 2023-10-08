@@ -6,7 +6,7 @@
 Required MATLAB Add-Ons: \
 -Navigation Toolbox \
 -Robotics System Toolbox \
--Simulink Real Time \
+-Simulink Real Time 
 
 ## INTRODUCTION
 
