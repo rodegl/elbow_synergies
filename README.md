@@ -25,7 +25,7 @@ comprehension of the purpose of specific variables and sections of the code.
 
 Ahead is provided a description of the main MATLAB files:
 
-## 'UP_000' 
+### 'UP_000' 
 This script filters the kinematic data using a median and a butterworth filter. Its recommendable to filter the
 original data since the XYZ position of the markers present noise and they occur to be occluded in multiple occasions. 
 Once the data is filtered it is saved with in 'mat' files using the orignal name file system: data is divide by 
@@ -37,7 +37,7 @@ Each 'mat' file contains a cell array. Each cell has the XYZ position an specifi
 each row correspon to XYZ position of an specific frame. The cells 1 to 6, contain the data from the upper arm. 
 Cells 7 to 12 contain the data from the forearm, and cell 13 to 16 the data from the hand markers.
 
-## 'UP_001'
+### 'UP_001'
 
 Once the data is filtered, the XYZ data is processed to obtain an estimated position of the elbow, wrist and center of 
 the hand, as well as the orientaiton of this last one. Here the function 'ArmReconstruction_filt' plays an important role. 
@@ -73,11 +73,11 @@ is the values for each frame of the task.
 The cell matrix containg the data from all the tasks and repetitions of an specific subject are stored in a 'mat' file named
 'elbow_data_SX' where 'X' indicates the number of the corresponding subject.
 
-## 'UP_002'
+### 'UP_002'
 This script allows to visualize in plots the 'swivel angle' and the 'axis rotation angle' progression from all the task and
 repetitions of one subject. The plots are divided in intransitive, transitive and tool-mediated activities.
 
-## 'UP_003' 
+### 'UP_003' 
 This script makes the same calculations decribed in 'UP_001'. However, the data is taken and graphed in a 3D plot frame
 after frame, making an animation as a result. The 3D plot shows a box representing the torax of the subject, the subject's
 anatomical measures are consired for the size of the box. Blue markers represt the shoulder, elbow, wrist, center of the hand
@@ -91,7 +91,7 @@ corresponding task will be displayed in a plot on the left side.
 
 This script has only illustration and validation purposes, no data is stored.
 
-## 'UP_004'
+### 'UP_004'
 In this script, given a desired position and orientation for the hand, a swivel angle is computed based is the created
 database. This similarity of the desired valued and the data set is displayed in a plot, this gives as a result a 
 'cloud of points'.
