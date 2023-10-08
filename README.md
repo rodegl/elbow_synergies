@@ -3,7 +3,6 @@
 
 # ELBOW SYNERGIES PROJECT (SWIVEL ANGLE)
 
-
 Required MATLAB Add-Ons:
 -Navigation Toolbox
 -Robotics System Toolbox
@@ -113,7 +112,7 @@ gaussian-linear will correspond to a specific "swivel angle", representing the w
 Then, all angles are mutiplied by their correspondind weight and summed. Finally, this value is devided by the sum of the 
 weigths, obtaining as a result an 'optimal' swivel angle for the desired position and orientation of the hand.
 
--------------- 'UP_005' -------------- 
+### 'UP_005' 
 This script allows to compute the 'optimal' swivel angle for a given position and orientation of the hand along a trajectory. 
 The start and end positions need to be defined, creating a linear interpolation between those points.
 As as result, a plot will show the progression of the swivel angle along the trajectory. Several configurations of the
